@@ -18,7 +18,7 @@ plugins {
   id "io.github.gradle-nexus.publish-plugin" version "1.0.0"
 }
 
-group = "com.hierynomus"
+group = "com.snapwood"
 ext.moduleName = "${project.group}.${project.name}"
 
 defaultTasks "build"
@@ -39,7 +39,7 @@ scmVersion {
   }
 }
 
-project.version = scmVersion.version
+project.version = "0.11.5-macos"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
