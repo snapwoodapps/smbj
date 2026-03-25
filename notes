@@ -1,0 +1,4 @@
+build and publish patch using:
+
+./gradlew clean publishToMavenLocal -x test -x testClasses -x compileTestGroovy -x compileTestJava
+
